@@ -1,0 +1,47 @@
+.interview-scheduler-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .interview-scheduler-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adjust the spacing between components */
+  }
+  
+  .schedule-button {
+    background-color: #4caf50; /* Set your desired button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+/* TimePicker.css */
+
+.time-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust the spacing between label and input */
+  }
+  
+.label {
+    font-size: 16px;
+  }
+  
+  .input-time {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  

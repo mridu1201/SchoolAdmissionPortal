@@ -1,0 +1,44 @@
+body .body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(144, 144, 255, 0.769);
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  main input {
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.231);
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    background-color: white;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  main #submit {
+    padding: 1rem 0.5rem;
+    border: none;
+    background-color: rgb(64, 203, 207);
+    cursor: pointer;
+  }
+  main #submit:hover {
+    background-color: black;
+    color: white;
+  }
+  
+.back-icon{
+    color: white;
+    margin-bottom: 480px;
+    font-size: xx-large;
+}
+

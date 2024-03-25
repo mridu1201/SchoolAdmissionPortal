@@ -1,0 +1,77 @@
+.card-body1{
+    background-color: rgb(244, 244, 233);
+    display: inline-block;
+    border-radius: 10px;
+    height: 160px;
+}
+.profile1{
+    display: inline-block;
+}
+.profile1-img{
+    height:150px;
+    width: 120px;
+}
+.profile1-content{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 10px;
+}
+.profile1-title{
+    display: block;
+}
+.profile1-content .profile1-header{
+    margin-top: 0;
+    font-size: 20px;
+}
+.profile1-role{
+    display: block;
+}
+.profile1-description{
+    display: block;
+}
+@media (max-width: 768px) {
+    .card-body1 {
+        height: 130px; /* Reduce card height for smaller screens */
+    }
+    .profile1-img {
+        height: 120px;
+        width: 100px; /* Adjust image size for smaller screens */
+    }
+    .profile1-content {
+        margin: 5px; /* Reduce margin for smaller screens */
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+    .profile1-header {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+    .profile1-title,
+    .profile1-role,
+    .profile1-description {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .card-body1 {
+        height: 100px; /* Reduce card height for smaller screens */
+    }
+    .profile1-img {
+        height: 90px;
+        width: 80px; /* Adjust image size for smaller screens */
+    }
+    .profile1-content {
+        margin: 5px; /* Reduce margin for smaller screens */
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+    .profile1-header {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+    .profile1-title,
+    .profile1-role,
+    .profile1-description {
+        font-size: 12px; /* Decrease font size for smaller screens */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}

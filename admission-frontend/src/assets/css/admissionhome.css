@@ -1,0 +1,310 @@
+.headerAd {
+    width: 100%;
+    min-height: 100vh;
+    color: #000;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/dxly910uj/image/upload/v1695577824/pexels-pixabay-207665_y1jnre.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+  }
+  
+  .headerAd #logo { 
+    height: 80px;
+  }
+  
+  #intro-text {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 170px;
+  }
+  
+  #intro-text * {
+    text-align: center;
+  }
+  
+  #intro-text h1 {
+    margin-bottom: 30px;
+  }
+  
+  #intro-text h1 #first-part {
+    font-weight: 100;
+  }
+  
+  #intro-text h1 #second-part {
+    font-size: 1.5em;
+  }
+  
+  #intro-text h3 {
+    font-style: italic;
+  }
+  
+  .headerAd nav {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .headerAd nav button {
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+    border: none;
+    margin-right: 2vw;
+    min-width: 300px;
+  }
+  
+  .headerAd nav button:first-child {
+    background-color: indigo;
+    border: 3px solid indigo;
+  }
+  
+  .headerAd nav button:first-child:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: indigo;
+  }
+  
+  .headerAd nav button:last-child {
+    background-color: rgb(204, 63, 140);
+    border: 3px solid rgb(204, 63, 140);
+  }
+  
+  .headerAd nav button:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(204, 63, 140);
+  }
+  
+  .headerAd nav button:hover {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  #about-us {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #about-us .about-item {
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  #about-us .about-item h2 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.4em;
+  }
+  
+  #about-us .about-item i {
+    border: 3px solid rgb(205, 127, 50);
+    font-size: 1.5em;
+    border-radius: 100%;
+    width: 120px;
+    padding: 30px;
+    line-height: 100px;
+  }
+
+
+  #logo{
+    height: 100px;
+    width: 300px;
+    margin-left: 420px;
+  }
+
+  .card5 {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-image: linear-gradient(-45deg, #7bc2f9bd 0%, #aa8bff80 100% );
+    border-radius: 10px;
+    display: flex;
+    padding: 13px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 60px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+  }
+  
+  .para {
+    text-align: center;
+    color: #333333;
+    opacity: 0.7;
+    line-height: 1.4;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .card5:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .card5 .card-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    border: none;
+    opacity: 0;
+    scale: 0;
+    transform-origin: 0 0;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card5:hover .card-btn {
+    opacity: 1;
+    scale: 1;
+  }
+  
+  .card5 .card-btn:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card5 .card-btn:active {
+    scale: 0.95;
+  }
+  
+  .overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-45deg, #55b5ff80 0%, #aa8bff80 100% );
+    transition: transform 0.5s ease;
+  }
+  
+  .card5:hover .overlay::after {
+    transform: translate(-50%, -50%) scale(2);
+  }
+  
+
+  .side-nav1 {
+    height: 100%; 
+    width: 100px; 
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background: #e8e3d4;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 1px 1px 2px ;
+  }
+  .admissi-home{
+    color: rgb(63, 63, 63);
+    background: #f9dede;
+  }
+  .ad-text{
+    margin: 30px 0 0 150px;
+    text-align: center;
+  }
+
+.cards5{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .headerAd #logo {
+      height: 60px; /* Adjust logo size for smaller screens */
+  }
+  .headerAd nav button {
+      min-width: 200px; /* Reduce button width for smaller screens */
+  }
+  #about-us .about-item {
+      width: 45%; /* Adjust item width for smaller screens */
+      margin-right: 10px; /* Reduce margin between items */
+  }
+  /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .headerAd #logo {
+      height: 50px; /* Adjust logo size for smaller screens */
+  }
+  .headerAd nav button {
+      min-width: 150px; /* Reduce button width for smaller screens */
+      font-size: 1.2em; /* Decrease button font size */
+  }
+  #about-us .about-item {
+      width: 100%; /* Full width for small screens */
+      margin-right: 0; /* No margin between items */
+  }
+  /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Add media queries and adjust styles for other sections as needed */
+
+/* Common styles for larger screens */
+.card5 {
+  /* Your existing styles for larger screens */
+}
+
+/* Adjust styles for medium-sized screens (e.g., tablets) */
+@media (max-width: 768px) {
+  .card5 {
+      width: 45%; /* Adjust card width for smaller screens */
+  }
+  /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .card5 {
+      width: 100%; /* Full width for small screens */
+  }
+  .headerAd #logo {
+      height: 40px; /* Adjust logo size for smaller screens */
+  }
+  /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Add media queries and adjust styles for the side navigation bar */
+.side-nav1 {
+  /* Your existing styles for larger screens */
+}
+
+@media (max-width: 768px) {
+  .side-nav1 {
+      width: 70px; /* Adjust width for smaller screens */
+  }
+  /* Add additional adjustments for smaller screens if needed */
+}

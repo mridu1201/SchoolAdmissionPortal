@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Oxygen:wght@400;700&family=Raleway:wght@400;500;700;800&family=Roboto&family=Rochester&family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+.css-1f415d1{
+	background: transparent;
+}
+
+/* intro */
+.banner1{
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+    background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png") ;
+    padding: 100px 0px;
+    position: relative;      
+}
+.back-color{
+    background: linear-gradient(to left, #7a60ff, #cd9ffa) !important;
+    background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png") ; 
+    font-family: 'Poppins', sans-serif;
+}
+/* .back-color::before{
+    background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png")
+} */
+/* .banner1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: ("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png")
+} */
+.banner1-content{
+    display: inline-block;
+	margin: 0 0 0px 100px;
+}
+.banner1-content .banner-title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+.banner1-content .banner-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+
+.banner1-image{
+    display: inline-block;
+}
+
+.banner-animated-img{
+    height: 380px;
+    width: 480px;
+    margin-left: 120px;
+}
+
+.banner-install{
+    margin-left: 40px;
+}
+.playstore, .appstore{
+    display:inline-block;
+    margin-left:10px ;
+}
+
+.span-back{
+    background: url('https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png');
+}
+
+/* about */
+.banner2 {
+    background: #ffffff;
+    /* background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441562/applight-wave_twlcja.svg"); */
+    padding: 90px 0 140px 0px;
+    display: block;
+}
+
+.about,.about-content,.about-icons{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+	width: 135px;
+	height: 135px;
+	border-radius: 100px;
+	background: #7a60ff;
+	background:  linear-gradient(to left, #7a60ff, #cd9ffa);
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 135px;
+	margin: 20px 20px 20px 20px ;
+}
+.about-icons .icon .thunder,
+.about-icons .icon .heart,
+.about-icons .icon .mobile
+{
+    display:flex;
+    margin-top: 30%;
+    align-content: center;
+    
+}
+.about-icons{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+svg{
+    display: inline-block;
+}
+
+.about .title{
+    font-size: 50px;
+}
+p.content{
+    font-size: 18px;
+}
+.icon-title{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* video-section */
+.video-section {
+	background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441566/video-bg_mxrvoh.jpg") no-repeat fixed center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.video-overlay {
+	background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+	height: 280px;
+
+}
+.video-section h3 {
+	font-weight: 600;
+	font-size: 38px;
+    text-align: center;
+}
+.video-section i {
+	display: block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	background: #ffffff;
+	color: #8e1efc;
+	font-size: 30px;
+	line-height: 70px;
+	margin: 0 auto;
+	cursor:pointer;
+}
+.video-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	align-content: center !important;
+	-ms-flex-line-pack: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	-ms-flex-pack: center !important;
+	justify-content: center !important;
+}
+.video-popup .video-src {
+	position: relative;
+	width: 700px;
+	max-width: 80%;
+}
+.video-popup .iframe-src {
+	width: 100%;
+	height: 0;
+	padding-top: 56.3%;
+	position: relative;
+	display: none;
+}
+.video-popup .iframe-src iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#video-icon{
+	margin-top: 60px;
+	text-align: center;
+	align-items: center;
+}
+/* faq */
+.faq{
+    padding: 150px 0 100px 0;
+    display: block;
+	background: #f1f1f1;
+}
+.faq .title{
+    font-size: 40px;
+}
+.faq .content,
+.faq .title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.q{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    width: 100%;
+}
+.a{
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+    width: 90%;
+}
+.faq .questions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0px 100px 0px 130px;
+}
+.qna{
+    height: 30%;
+    width: 35%;
+    margin: 20px 0 20px 0;
+}
+
+.testimonial{
+	background: url('https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png');
+	height: 600px;
+}
+
+.testimonial .title,
+.testimonial .content{
+	margin-top: 20px;
+    display: block;
+}
+.testimonial .title p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.testimonial .content{
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 100px;
+}
+.carousel-card{
+    margin: 50px 20px 20px 20px;
+}
+.left,.right:hover{
+    cursor: pointer;
+}
+
+
+/* contact */
+.media-body {
+    width: 500px;
+    text-align: center;
+}
+.contact{
+	background: #ffffff;
+	padding: 60px 0 20px 0;
+}
+
+.contact-components{
+	margin: 30px 20px 20px 60px;
+	padding: 10px 0 80px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.email-form{
+	display: inline-block;
+	padding: 20px 30px 20px 30px;
+}
+.contact-content{
+	font-size: 20px;
+	text-align: center;
+}
+.contact-title{	
+	font-size: 40px;
+	text-align: center;
+}
+.contact-details{
+	display: inline-block;
+	/* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
+}
+
+
+
+/* Admissions */
+.admissions{
+	background: #fafafa;
+	padding: 100px 0 80px 0;
+}
+.admissions .title
+{
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	
+}
+.admissions .content{
+	text-align: center;
+	font-size: 18px;
+	display: block;
+}
+.admission-route{
+	text-align: center;
+	padding: 120px 0 50px 0;
+}
+.admission-btn{
+	color: #8e1efc;
+    padding: 10px 40px;
+    border: 2px solid #8e1efc;
+    border-radius: 7px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+}
+.admission-btn:hover{
+	background: #8e1efc;
+	color: #ffffff;
+}
+
+/* footer */
+
+.f-logo{
+	width:20%;
+}
+.footer-logo{
+	background: #9e85b7;
+}
+.footer-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background: #9e85b7;
+}
+.f-in,.f-utube,.f-fb,.f-twitter,.f-ig{
+	padding: 5px;
+	color: rgb(74, 74, 74);
+}
+.links-terms{
+	background: #f9e8e8;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
+.links-terms p{
+	font-size: 12px;
+}
+.privacy{
+	margin-left: 300px;
+}
+.privacy:hover{
+	cursor: pointer;
+}
+.tnc{
+	margin-left: 50px;
+}
+.tnc{
+	cursor: pointer;
+}
+.FAQ{
+	margin-left: 50px;
+}
+.privacy-policy-container {
+	background: linear-gradient(to left, rgba(122, 96, 255, 0.178), rgba(204, 159, 250, 0.297));
+	color: #000;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 70px;
+	min-height: 40vh;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+.privacy-title{
+	text-align: center;
+	align-items:end;
+	display: inline-block;
+	font-size: 100px;
+}
+.mani-policy{
+	background-color: rgb(205, 159, 250, 0.90);
+}
+
+.warning-icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.privacy-policy-text {
+	flex: 1;
+}
+.terms-content{
+	display: inline;
+	justify-content: end;
+	width: 50%;
+}
+.terms-title{
+	font-size:80px ;
+	display: inline-block;
+	background-color: #ffffff;
+}
+.terms-main{
+	background: linear-gradient(to left, rgba(122, 96, 255, 0.178), rgba(204, 159, 250, 0.297));	
+	display: flex;
+}
+
+.pl-5{
+	padding-left: 2rem;
+}
+.pl-4{
+	padding-left: 1rem;
+
+}
+
+
+
+/* Adjust styles for medium-sized screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .banner1 {
+        padding: 50px 0; /* Reduce padding */
+    }
+    .banner1-content {
+        margin: 0;
+        text-align: center; /* Center align content */
+    }
+    .banner1-content .banner-title {
+        font-size: 40px; /* Decrease font size */
+    }
+    .banner1-content .banner-text {
+        font-size: 20px; /* Decrease font size */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .banner1 {
+        padding: 30px 0; /* Reduce padding */
+    }
+    .banner1-content .banner-title {
+        font-size: 30px; /* Decrease font size */
+    }
+    .banner1-content .banner-text {
+        font-size: 18px; /* Decrease font size */
+    }
+    .banner-animated-img {
+        height: 300px;
+        width: 360px;
+        margin-left: 20px; /* Adjust size and margins */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for different sections as needed */
+
+/* Common styles for larger screens */
+.about {
+    /* Your existing styles for larger screens */
+}
+
+/* Adjust styles for medium-sized screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .about .title {
+        font-size: 36px; /* Decrease font size */
+    }
+    .icon {
+        width: 100px;
+        height: 100px; /* Adjust size */
+        font-size: 40px; /* Decrease font size */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Adjust styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .about .title {
+        font-size: 30px; /* Decrease font size */
+    }
+    .icon {
+        width: 80px;
+        height: 80px; /* Adjust size */
+        font-size: 32px; /* Decrease font size */
+    }
+    /* Add additional adjustments for smaller screens if needed */
+}
+
+/* Add media queries and adjust styles for other sections as needed */
